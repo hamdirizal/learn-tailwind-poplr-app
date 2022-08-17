@@ -9,40 +9,52 @@ export default function Hello(){
           <Image src='/poplar-logo-text.svg' width='147' height='51' />
         </div>
 
-        <div className='container max-w-xs xs:max-w-md bg-white rounded-xl p-6 xs:p-10 font-medium'>
-          <h1 className="font-serif text-2xl xs:text-3xl mb-4 xs:mb-9">Signup for Poplar</h1>
+        <div className='container max-w-xs xs:max-w-md sm:max-w-lg bg-white rounded-xl p-6 xs:p-10 font-medium'>
+          <h1 className="font-serif text-2xl xs:text-3xl mb-2">Signup for Poplar</h1>
           <form action="#">
 
-            <div className='mt-6'>
-              <label>First name</label>
-            </div>
-            <div>
-              <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="First name" />
+            <div className="md:flex">
+              <div className="md:mr-3">
+                <div className='mt-6'>
+                  <label>First name</label>
+                </div>
+                <div>
+                  <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="First name" />
+                </div>
+              </div>
+
+              <div className="md:ml-3">
+                <div className='mt-6'>
+                  <label>Last name</label>
+                </div>
+                <div>
+                  <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Last name" />
+                </div>
+              </div>
             </div>
 
-            <div className='mt-6'>
-              <label>Last name</label>
-            </div>
-            <div>
-              <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Last name" />
-            </div>
+            <div className="md:flex">
+            <div className="md:mr-3">
+                <div className='mt-6'>
+                  <label>Country code</label>
+                </div>
+                <div>
+                  <select className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray min-w-[133px]">
+                    <option value="">Code</option>
+                    <option value="">+1</option>
+                    <option value="">+91</option>
+                  </select>
+                </div>
+              </div>
 
-            <div className='mt-6'>
-              <label>Country code</label>
-            </div>
-            <div>
-              <select className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray">
-                <option value="">Select Code</option>
-                <option value="">+1</option>
-                <option value="">+91</option>
-              </select>
-            </div>
-
-            <div className='mt-6'>
-              <label>Phone</label>
-            </div>
-            <div>
-              <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Phone" />
+              <div className="md:ml-3 md:flex-grow">
+                <div className='mt-6'>
+                  <label>Phone</label>
+                </div>
+                <div>
+                  <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Phone" />
+                </div>
+              </div>
             </div>
 
             <div className='mt-6'>
@@ -59,7 +71,7 @@ export default function Hello(){
               <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Company name" />
             </div>
 
-            <div className="mt-6">
+            <div className="mt-6 mb-14">
               <label className="flex">
                 <input className="border border-popGreen rounded mr-3"
                 type="checkbox" />
