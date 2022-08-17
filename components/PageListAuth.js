@@ -1,4 +1,4 @@
-export default function LoginList(){
+export default function PageListAuth(){
   return (
     <div className="absolute z-50 bottom-0 left-0 text-xs">
       <a className="mr-2 mb-2" href="/login">Login</a>

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import LoginList from '../components/LoginList';
+import PageListAuth from '../components/PageListAuth';
 
 export default function Hello(){
   return(
@@ -46,7 +46,7 @@ export default function Hello(){
         </div>
 
       </div>
-      <LoginList />
+      <PageListAuth />
     </>
   );
 }
