@@ -41,7 +41,7 @@ export default function Hello(){
           <div className="mb-3">Don't have an account?</div>
           <div>
             <a className="text-popLinkBlue font-semibold"
-            href="#">Create an account</a>
+            href="/signup">Create an account</a>
           </div>
         </div>
 
