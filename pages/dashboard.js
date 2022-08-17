@@ -19,6 +19,40 @@ export default function Hello(){
               </p>
               <p className="font-medium">Let’s see how much you are earning with Poplar today</p>
             </div>            
+            <div id="PanelSetup"
+            className="bg-white px-7 pb-7 rounded-xl mb-4">
+              <div className="flex border-b -mx-7 mb-4 px-7 pb-3 pt-3 place-content-between items-center">
+                <h3 className="text-[21px] font-medium">Poplar Setup</h3>
+                <div className="flex items-center place-content-center rounded-full border-2 w-[50px] h-[50px]">0/3</div>
+              </div>
+
+              <div className="flex">
+                <div className="w-1/3 bg-popPanelGrey rounded-xl">
+                  <div className="border-b p-4 flex">
+                    <span className="block w-10 h-10 border border-gray-300 rounded-full mr-3"></span>
+                    <h4>Submit Documentation</h4>
+                  </div>
+                  <p>Please allow 3-5 business days for your documents to be reviewed. In the meantime feel free to explore the app!</p>
+                </div>
+                <div className="w-1/3">
+                  <div>
+                    <span></span>
+                    <h4>Connect your bank accounts</h4>
+                  </div>
+                  <p>Connect your bank accounts and discover your idle cash.</p>
+                </div>
+                <div className="w-1/3">
+                  <div>
+                    <span></span>
+                    <h4>Deposit and start yielding</h4>
+                  </div>
+                  <p>Deposit money and start yielding every minute!</p>
+                </div>
+              </div>
+              <div className="flex place-content-end">
+                <button className='rounded-lg block bg-popGreen text-white font-semibold text-base py-3 px-4 mt-5'>Submit Documentation</button>
+              </div>
+            </div>
           </div>
           <div id="ContentContainerRight"></div>
         </div>

@@ -24,12 +24,13 @@ module.exports = {
       },
       colors:{
         popLightGrey: '#f3f6fa',
+        popPanelGrey: '#f2f4f6',
+        popInputGray: '#f4f5f9',
+        popMidGray: '#7f91a3',
         popLinkBlue: '#1c86ff',
         popErrorRed: '#ff4d4f',
         popBlack: '#123149',
         popGreen: '#11cc7a',
-        popMidGray: '#7f91a3',
-        popInputGray: '#f4f5f9',
       }
     },
   },
