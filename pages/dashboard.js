@@ -21,27 +21,27 @@ export default function Hello(){
             </div>            
             <div id="PanelSetup"
             className="bg-white px-7 pb-7 rounded-xl mb-4">
-              <div className="flex border-b -mx-7 mb-4 px-7 pb-3 pt-3 place-content-between items-center">
+              <div className="flex border-b -mx-7 mb-7 px-7 pb-3 pt-3 place-content-between items-center">
                 <h3 className="text-[21px] font-medium">Poplar Setup</h3>
                 <div className="flex items-center place-content-center rounded-full border-2 w-[50px] h-[50px]">0/3</div>
               </div>
 
               <div className="flex">
-                <div className="w-1/3 bg-popGrey140 rounded-xl">
-                  <div className="border-b p-4 flex">
+                <div className="flex-grow w-1/3 bg-popGrey140 rounded-xl mr-12">
+                  <div className="border-b p-4 flex items-center">
                     <span className="block w-10 h-10 border border-gray-300 rounded-full mr-3"></span>
-                    <h4>Submit Documentation</h4>
+                    <h4 className="text-popGrey300 text-base font-medium">Submit Documentation</h4>
                   </div>
-                  <p>Please allow 3-5 business days for your documents to be reviewed. In the meantime feel free to explore the app!</p>
+                  <p className="py-5 pl-4 pr-8 text-popBlack700 font-medium">Please allow 3-5 business days for your documents to be reviewed. In the meantime feel free to explore the app!</p>
                 </div>
-                <div className="w-1/3">
+                <div className="flex-grow w-1/3 bg-popGrey140 rounded-xl mr-12">
                   <div>
                     <span></span>
                     <h4>Connect your bank accounts</h4>
                   </div>
                   <p>Connect your bank accounts and discover your idle cash.</p>
                 </div>
-                <div className="w-1/3">
+                <div className="flex-grow w-1/3 bg-popGrey140 rounded-xl">
                   <div>
                     <span></span>
                     <h4>Deposit and start yielding</h4>

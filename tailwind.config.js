@@ -26,6 +26,7 @@ module.exports = {
         popGrey100: '#f3f6fa',
         popGrey140: '#f2f4f6',
         popGrey150: '#f4f5f9',
+        popGrey300: '#7f91a3',
         popGrey400: '#7f91a3',
         popBlue400: '#1c86ff',
         popRed400: '#ff4d4f',
