@@ -26,7 +26,7 @@ export default function Hello(){
             </div>
             <div className="text-right my-3">
               <a className='text-base text-popMidGray' 
-              href="#">Forgot password</a>
+              href="/forgot-password">Forgot password</a>
             </div>
             <div>
               <button className='rounded-lg block bg-popGreen text-white font-semibold text-base p-3 w-full mt-5'
