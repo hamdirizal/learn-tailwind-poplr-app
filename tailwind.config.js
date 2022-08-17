@@ -23,14 +23,14 @@ module.exports = {
         xxs: '.625rem'
       },
       colors:{
-        popLightGrey: '#f3f6fa',
-        popPanelGrey: '#f2f4f6',
-        popInputGray: '#f4f5f9',
-        popMidGray: '#7f91a3',
-        popLinkBlue: '#1c86ff',
-        popErrorRed: '#ff4d4f',
-        popBlack: '#123149',
-        popGreen: '#11cc7a',
+        popGrey100: '#f3f6fa',
+        popGrey140: '#f2f4f6',
+        popGrey150: '#f4f5f9',
+        popGrey400: '#7f91a3',
+        popBlue400: '#1c86ff',
+        popRed400: '#ff4d4f',
+        popBlack700: '#123149',
+        popGreen400: '#11cc7a',
       }
     },
   },

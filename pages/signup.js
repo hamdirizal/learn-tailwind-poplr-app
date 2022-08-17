@@ -4,7 +4,7 @@ import PageListAuth from '../components/PageListAuth';
 export default function Hello(){
   return(
     <>
-      <div className='bg-popLightGrey w-full min-h-screen flex flex-col items-center text-sm text-popBlack pt-12'>
+      <div className='bg-popGrey100 w-full min-h-screen flex flex-col items-center text-sm text-popBlack700 pt-12'>
         <div className="mb-8 xs:mb-14">
           <Image src='/poplar-logo-text.svg' width='147' height='51' />
         </div>
@@ -19,7 +19,7 @@ export default function Hello(){
                   <label>First name</label>
                 </div>
                 <div>
-                  <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="First name" />
+                  <input className="bg-popGrey150 w-full rounded-lg py-3 px-2 text-base mt-2 border border-popGrey150" type="text" placeholder="First name" />
                 </div>
               </div>
 
@@ -28,7 +28,7 @@ export default function Hello(){
                   <label>Last name</label>
                 </div>
                 <div>
-                  <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Last name" />
+                  <input className="bg-popGrey150 w-full rounded-lg py-3 px-2 text-base mt-2 border border-popGrey150" type="text" placeholder="Last name" />
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ export default function Hello(){
                   <label>Country code</label>
                 </div>
                 <div>
-                  <select className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray min-w-[133px]">
+                  <select className="bg-popGrey150 w-full rounded-lg py-3 px-2 text-base mt-2 border border-popGrey150 min-w-[133px]">
                     <option value="">Code</option>
                     <option value="">+1</option>
                     <option value="">+91</option>
@@ -52,7 +52,7 @@ export default function Hello(){
                   <label>Phone</label>
                 </div>
                 <div>
-                  <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Phone" />
+                  <input className="bg-popGrey150 w-full rounded-lg py-3 px-2 text-base mt-2 border border-popGrey150" type="text" placeholder="Phone" />
                 </div>
               </div>
             </div>
@@ -61,26 +61,26 @@ export default function Hello(){
               <label>Email</label>
             </div>
             <div>
-              <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Email" />
+              <input className="bg-popGrey150 w-full rounded-lg py-3 px-2 text-base mt-2 border border-popGrey150" type="text" placeholder="Email" />
             </div>
 
             <div className='mt-6'>
               <label>Company name</label>
             </div>
             <div>
-              <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Company name" />
+              <input className="bg-popGrey150 w-full rounded-lg py-3 px-2 text-base mt-2 border border-popGrey150" type="text" placeholder="Company name" />
             </div>
 
             <div className="mt-6 mb-14">
               <label className="flex">
-                <input className="border border-popGreen rounded mr-3"
+                <input className="border border-popGreen400 rounded mr-3"
                 type="checkbox" />
-                <span>I accept the Poplar <a className="text-popLinkBlue" href="#">Terms of Use</a> and <a className="text-popLinkBlue" href="#">Privacy Policy</a>.</span>
+                <span>I accept the Poplar <a className="text-popBlue400" href="#">Terms of Use</a> and <a className="text-popBlue400" href="#">Privacy Policy</a>.</span>
               </label>
             </div>
 
             <div>
-              <button className='rounded-lg block bg-popGreen text-white font-semibold text-base p-3 w-full mt-5'
+              <button className='rounded-lg block bg-popGreen400 text-white font-semibold text-base p-3 w-full mt-5'
               >Start</button>
             </div>
 
@@ -89,7 +89,7 @@ export default function Hello(){
 
         
         <div className="text-center mt-12 mb-20">
-          <a className="text-popLinkBlue font-semibold inline-flex  text-base underline"
+          <a className="text-popBlue400 font-semibold inline-flex  text-base underline"
           href="/login">Already have an account?</a>
         </div>
 

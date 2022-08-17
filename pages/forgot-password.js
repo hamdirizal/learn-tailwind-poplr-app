@@ -4,7 +4,7 @@ import PageListAuth from '../components/PageListAuth';
 export default function Hello(){
   return(
     <>
-      <div className='bg-popLightGrey w-full min-h-screen flex flex-col items-center text-sm text-popBlack pt-12'>
+      <div className='bg-popGrey100 w-full min-h-screen flex flex-col items-center text-sm text-popBlack700 pt-12'>
         <div className="mb-8 xs:mb-14">
           <Image src='/poplar-logo-text.svg' width='147' height='51' />
         </div>
@@ -19,16 +19,16 @@ export default function Hello(){
               <label>Email</label>
             </div>
             <div>
-              <input className="bg-popInputGray w-full rounded-lg py-3 px-2 text-base mt-2 border border-popInputGray" type="text" placeholder="Email" />
+              <input className="bg-popGrey150 w-full rounded-lg py-3 px-2 text-base mt-2 border border-popGrey150" type="text" placeholder="Email" />
             </div>
             <div>
-              <button className='rounded-lg block bg-popGreen text-white font-semibold text-base p-3 w-full mt-5'
+              <button className='rounded-lg block bg-popGreen400 text-white font-semibold text-base p-3 w-full mt-5'
               >Reset password</button>
             </div>
           </form>
 
           <div className="text-center mt-12">
-            <a className="text-popMidGray font-medium inline-flex"
+            <a className="text-popGrey400 font-medium inline-flex"
             href="/login">
               <Image src="/icon-arrow-left-grey.svg" width="21" height="21" />
               <span className="ml-2">Back to log in</span></a>
